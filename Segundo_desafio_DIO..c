@@ -1,3 +1,10 @@
+/*consiste em uma criação de uma calculadora de partidas rankeadas,
+ que para isto pode ser utilizado variáveis, operadores, laços de repetição,
+ estruturas de decisões e funções, sendo que estas devem ser utilizadas para
+ retonar o saldo de vitorias ou derrotas, e através deste saldo o jogador será
+  ranqueado de acordo com o número de vitorias que ele possui, será caracterizado o nível do jogador.
+  Autor : Paulo fernando.
+  */
 #include <stdio.h> //biblioteca
 #include <conio.h> //biblioteca
 #include <locale.h> //tratamento de String
