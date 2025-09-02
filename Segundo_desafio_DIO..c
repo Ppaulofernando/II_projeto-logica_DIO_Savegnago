@@ -1,16 +1,16 @@
-/*consiste em uma criação de uma calculadora de partidas rankeadas,
- que para isto pode ser utilizado variáveis, operadores, laços de repetição,
- estruturas de decisões e funções, sendo que estas devem ser utilizadas para
- retonar o saldo de vitorias ou derrotas, e através deste saldo o jogador será
-  ranqueado de acordo com o número de vitorias que ele possui, será caracterizado o nível do jogador.
-  Autor : Paulo fernando.
+/*consiste em uma criaÃ§Ã£o de uma calculadora de partidas rankeadas,
+ que para isto pode ser utilizado variÃ¡veis, operadores, laÃ§os de repetiÃ§Ã£o,
+ estruturas de decisÃµes e funÃ§Ãµes, sendo que estas devem ser utilizadas para
+ retonar o saldo de vitorias ou derrotas, e atravÃ©s deste saldo o jogador serÃ¡
+  ranqueado de acordo com o nÃºmero de vitorias que ele possui, serÃ¡ caracterizado o nÃ­vel do jogador.
+  Autor : Paulo Fernando.
   */
 #include <stdio.h> //biblioteca
 #include <conio.h> //biblioteca
 #include <locale.h> //tratamento de String
-#include <math.h> //biblioteca matemática
+#include <math.h> //biblioteca matemÃ¡tica
 #include <string.h>
-#include <windows.h> //biblioteca de operações com String
+#include <windows.h> //biblioteca de operaÃ§Ãµes com String
 #include <stdlib.h>
 #include <time.h>
 
@@ -23,13 +23,13 @@ int main() {
 	char nivel;
 	
 	resultado = rank();	
-	if(resultado<10)                      printf("O herói tem saldo inferior a 10 vitorias e está no nível FERRO.");
-	if(resultado>10  && resultado<=20)    printf("O herói tem saldo %d vitorias e está no nível BRONZE;", resultado);
-	if(resultado>20  && resultado<=50)    printf("O herói tem saldo %d vitorias e está no nível PRATA.", resultado);
-	if(resultado>50  && resultado<=80)    printf("O herói tem saldo %d vitorias e está no nível OURO.", resultado);
-	if(resultado>80  && resultado<=90)    printf("O herói tem saldo %d vitorias e está no nível DIAMANTE.", resultado);
-	if(resultado>90  && resultado<=100)   printf("O herói tem saldo %d vitorias e está no nível LENDÁRIO.", resultado);
-	if(resultado>100)                     printf("O herói tem saldo %d vitorias e está no nível IMORTAL.", resultado);
+	if(resultado<10)                      printf("O herÃ³i tem saldo inferior a 10 vitorias e estÃ¡ no nÃ­vel FERRO.");
+	if(resultado>10  && resultado<=20)    printf("O herÃ³i tem saldo %d vitorias e estÃ¡ no nÃ­vel BRONZE;", resultado);
+	if(resultado>20  && resultado<=50)    printf("O herÃ³i tem saldo %d vitorias e estÃ¡ no nÃ­vel PRATA.", resultado);
+	if(resultado>50  && resultado<=80)    printf("O herÃ³i tem saldo %d vitorias e estÃ¡ no nÃ­vel OURO.", resultado);
+	if(resultado>80  && resultado<=90)    printf("O herÃ³i tem saldo %d vitorias e estÃ¡ no nÃ­vel DIAMANTE.", resultado);
+	if(resultado>90  && resultado<=100)   printf("O herÃ³i tem saldo %d vitorias e estÃ¡ no nÃ­vel LENDÃRIO.", resultado);
+	if(resultado>100)                     printf("O herÃ³i tem saldo %d vitorias e estÃ¡ no nÃ­vel IMORTAL.", resultado);
 	
 	return 0;
 	
