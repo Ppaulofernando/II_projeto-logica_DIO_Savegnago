@@ -1,4 +1,4 @@
-## 💡  II_Projeton DIO_Savegnago
+## 💡  II_Projeto DIO_Savegnago
 
 
 📋**Segundo projeto de lógica(Bootcamp DIO-Savegnago)**
